@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "bladeoil",
+	"version": "${version}",
+	"name": "Blade Oil",
+	"description": "Adds oils that can be applied to weapons, boosting damage against certain mobs",
+	"authors": [
+		"N (tnoctua)"
+	],
+	"contact": {
+		"sources": "https://github.com/tnoctua/blade-oil",
+		"issues": "https://github.com/tnoctua/blade-oil/issues"
+	},
+	"license": "LGPL-2.1",
+	"icon": "assets/bladeoil/bladeoil.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.tnoctua.bladeoil.BladeOil"
+		],
+		"fabric-datagen": [
+			"me.tnoctua.bladeoil.datagen.BladeOilDataGenerator"
+		]
+	},
+	"mixins": [
+		"bladeoil.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*",
+		"nmodutils": "~1.0.0-beta.1"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.github_releases" : "https://github.com/tnoctua/blade-oil/releases",
+				"modmenu.modrinth" : "https://modrinth.com/mod/blade-oil",
+				"modmenu.curseforge" : "https://curseforge.com/minecraft/mc-mods/blade-oil"
+			},
+			"update_checker": true
+		}
+	}
+}
