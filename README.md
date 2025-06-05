@@ -36,3 +36,8 @@ Blade oil properties can be completely configured by editing: `$MC_ROOT/config/b
 - **Basic Oil**: 2 Damage (1 Hearts)
 - **Enhanced Oil**: 4 Damage (2 Hearts)
 - **Superior Oil**: 8 Damage (4 Hearts)
+
+<br>
+<a href="https://modrinth.com/mod/blade-oil"><img alt="modrinth" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a> <a href="https://www.curseforge.com/minecraft/mc-mods/blade-oil"><img alt="curseforge" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_vector.svg"></a> <a href="https://github.com/tnoctua/blade-oil"><img alt="github" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/github_vector.svg"></a>
+
+<img alt="forge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/unsupported/forge_vector.svg">
