@@ -14,13 +14,11 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ClickType;
 import net.minecraft.util.Colors;
 
-import java.util.ArrayList;
-
 import static me.tnoctua.nmodutils.util.Utils.addTranslation;
 
 public class BladeOilItem extends GenericItem {
 
-    public static final BladeOilComponent EMPTY_OIL = new BladeOilComponent("empty", 0, 0, Colors.GRAY, new ArrayList<>());
+    public static final BladeOilComponent EMPTY_OIL = new BladeOilComponent("empty", 0, 0, Colors.GRAY, null);
     private final BladeOilComponent OIL;
 
     public BladeOilItem(Settings settings) {
