@@ -41,7 +41,7 @@ public class BladeOilItem extends GenericItem {
                     player.giveOrDropStack(new ItemStack(Items.GLASS_BOTTLE));
                 }
                 stack.damage(1, player);
-                player.playSound(SoundEvents.ITEM_BOTTLE_FILL_DRAGONBREATH, 0.8f, 0.8f + player.getWorld().getRandom().nextFloat() * 0.4f);
+                player.playSound(SoundEvents.ITEM_BOTTLE_FILL_DRAGONBREATH, 0.8f, 0.8f + player.getEntityWorld().getRandom().nextFloat() * 0.4f);
             }
             return true;
         }
